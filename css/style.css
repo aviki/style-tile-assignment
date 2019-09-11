@@ -1,7 +1,7 @@
 /* change these */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
 * {
   box-sizing: border-box;
@@ -25,11 +25,11 @@
 */
 
 :root {
-  --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
+  --bg-color: #110e0e;
+  --link-color: #1a1717;
+  --link-hover-color: #3c3030;
+  --color-4: #dfca4e;
+  --color-5: #800000;
 
   --primary-font: sans-serif;
   --secondary-font: serif;
@@ -144,15 +144,15 @@ ul li:last-child {
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
+  background: url(../img/gold.jpg) top left repeat;
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/black-sparkle.jpg) top left repeat;
 }
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/red_carpet.jpg) top left repeat;
 }
 
 button {
