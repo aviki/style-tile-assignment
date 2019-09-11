@@ -1,7 +1,7 @@
 /* change these */
 
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
 
 * {
   box-sizing: border-box;
@@ -27,12 +27,12 @@
 :root {
   --bg-color: #110e0e;
   --link-color: #1a1717;
-  --link-hover-color: #3c3030;
+  --link-hover-color: #800000;
   --color-4: #dfca4e;
-  --color-5: #800000;
+  --color-5: #3c3030;
 
-  --primary-font: sans-serif;
-  --secondary-font: serif;
+  --primary-font: "Julius Sans One", sans-serif;
+  --secondary-font: "Quicksand", sans-serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
@@ -82,6 +82,10 @@ footer {
   font-size: 0.8rem;
 }
 
+#oscar-logo {
+  float: right;
+}
+
 main {
   padding: calc(2*var(--white-space));
 }
@@ -122,7 +126,7 @@ ul li:last-child {
 }
 
 .color-swatch-3 {
-  background-color: var(--link-hover-color);
+  background-color: var(--color-5);
 }
 
 .color-swatch-4 {
@@ -130,7 +134,7 @@ ul li:last-child {
 }
 
 .color-swatch-5 {
-  background-color: var(--color-5);
+  background-color: var(--link-hover-color);
 }
 
 .textures li {
@@ -156,19 +160,19 @@ ul li:last-child {
 }
 
 button {
-  padding: 1rem;
-  border-radius: 4px;
-  background: var(--link-color);
+  padding: 10px 6px;
+  border-radius: 25px;
+  width: 240px;
+  background: var(--bg-color);
   text-align: center;
   text-decoration: none;
-  font: bold 1.25em/1 "Open Sans", sans-serif;
+  font: bold 1.25em/1 "Julius Sans One", sans-serif;
+  text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
-  text-transform: uppercase;
   text-shadow: 0px -1px 0px #0374a0;
   transition: all 0.2s ease;
   cursor: pointer;
-  margin: 0 1rem 1rem 0;
 }
 
 .secondary-button {
